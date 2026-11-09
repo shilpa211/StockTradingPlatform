@@ -1,0 +1,17 @@
+public class Stock {
+
+    String stockName;
+    double price;
+
+    public Stock(String stockName, double price) {
+        this.stockName = stockName;
+        this.price = price;
+    }
+
+    public void displayStock() {
+        System.out.println("--------------------------------");
+        System.out.println("Stock Name : " + stockName);
+        System.out.println("Price      : ₹" + price);
+        System.out.println("--------------------------------");
+    }
+}
